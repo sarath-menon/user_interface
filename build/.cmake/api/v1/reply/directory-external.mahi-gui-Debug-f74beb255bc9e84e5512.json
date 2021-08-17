@@ -1,0 +1,321 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/mahi-gui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 215,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/glfw/src/libglfw3.a"
+			],
+			"targetId" : "glfw::@7b16a66fbb5a5abea0a4",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/glad/libglad.a"
+			],
+			"targetId" : "glad::@cb1b1b5f4a0fee8f101c",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/nativefiledialog-extended/src/libnfd.a"
+			],
+			"targetId" : "nfd::@6e320e98e9c358c95389",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/nanovg/libnanovg.a"
+			],
+			"targetId" : "nanovg::@6596dc26636dfc7145f1",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/clipper/libclipper.a"
+			],
+			"targetId" : "clipper::@775832cddd861eab0c61",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/mahi-gui/libmahi-gui-d.a"
+			],
+			"targetId" : "gui::@937ab811cbf384fe3ba4",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "external/mahi-gui/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "external/mahi-gui/3rdparty/glad/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/imgui/imconfig.h",
+				"external/mahi-gui/3rdparty/imgui/imgui_internal.h",
+				"external/mahi-gui/3rdparty/imgui/imgui.h",
+				"external/mahi-gui/3rdparty/imgui/imstb_rectpack.h",
+				"external/mahi-gui/3rdparty/imgui/imstb_textedit.h",
+				"external/mahi-gui/3rdparty/imgui/imstb_truetype.h",
+				"external/mahi-gui/3rdparty/imgui/imgui_stdlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/implot/implot.h",
+				"external/mahi-gui/3rdparty/implot/implot_internal.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/nanovg/src/nanovg.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/nanosvg/src/nanosvg.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/mahi-gui/3rdparty/clipper/clipper.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/mahi-gui",
+			"exportName" : "mahi-gui-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "glfw::@7b16a66fbb5a5abea0a4",
+					"index" : 3
+				},
+				{
+					"id" : "glad::@cb1b1b5f4a0fee8f101c",
+					"index" : 2
+				},
+				{
+					"id" : "nfd::@6e320e98e9c358c95389",
+					"index" : 7
+				},
+				{
+					"id" : "nanovg::@6596dc26636dfc7145f1",
+					"index" : 6
+				},
+				{
+					"id" : "clipper::@775832cddd861eab0c61",
+					"index" : 0
+				},
+				{
+					"id" : "gui::@937ab811cbf384fe3ba4",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"external/mahi-gui/CMakeFiles/Export/lib/cmake/mahi-gui/mahi-gui-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/mahi-gui",
+			"paths" : 
+			[
+				"build/external/mahi-gui/mahi-gui-config.cmake",
+				"build/external/mahi-gui/mahi-gui-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/mahi-gui",
+		"source" : "external/mahi-gui"
+	}
+}

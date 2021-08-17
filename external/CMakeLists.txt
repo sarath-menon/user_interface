@@ -1,0 +1,2 @@
+add_subdirectory(mahi-gui)
+add_subdirectory(mocap_subscriber_outside_main)

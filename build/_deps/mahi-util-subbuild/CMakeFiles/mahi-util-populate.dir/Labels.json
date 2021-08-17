@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-build.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-download.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-install.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-test.rule"
+		},
+		{
+			"file" : "/Users/sarathmenon/Desktop/eth_soft/code/gui user interface/user_interface/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mahi-util-populate"
+		],
+		"name" : "mahi-util-populate"
+	}
+}

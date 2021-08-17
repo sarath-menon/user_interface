@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "external/mahi-gui/3rdparty/nativefiledialog-extended",
+		"source" : "external/mahi-gui/3rdparty/nativefiledialog-extended"
+	}
+}
