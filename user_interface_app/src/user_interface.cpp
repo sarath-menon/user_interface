@@ -115,12 +115,12 @@ public:
 
       static ImPlotAxisFlags rt_axis = ImPlotAxisFlags_NoTickLabels;
 
-      ImGui::BulletText("X Axis");
+      // ImGui::BulletText("X Axis");
       ImPlot::SetNextPlotLimitsX(0, history, ImGuiCond_Always);
       ImPlot::SetNextPlotLimitsY(-4, 4, ImGuiCond_Always);
       ImPlot::PushColormap(ImPlotColormap_Pastel);
 
-      if (ImPlot::BeginPlot("x_velocity_plot", "time", "velocity",
+      if (ImPlot::BeginPlot("X Axis Velocity", "time", "velocity",
                             ImVec2(-1, 200))) {
         // X Axis Velocity
         ImPlot::PlotLine("meters / sec", &x_vel.Data[0].x, &x_vel.Data[0].y,
@@ -130,12 +130,12 @@ public:
         ImPlot::EndPlot();
       }
 
-        ImGui::BulletText("Y Axis");
+        // ImGui::BulletText("Y Axis Velocity");
         ImPlot::SetNextPlotLimitsX(0, history, ImGuiCond_Always);
         ImPlot::SetNextPlotLimitsY(-4, 4, ImGuiCond_Always);
         ImPlot::PushColormap(ImPlotColormap_Pastel);
 
-        if (ImPlot::BeginPlot("y_velocity_plot", "time", "velocity",
+        if (ImPlot::BeginPlot("Y Axis Velocity", "time", "velocity",
                               ImVec2(-1, 200))) {
 
           // Y Axis Velocity
@@ -146,6 +146,25 @@ public:
           ImPlot::SetNextMarkerStyle(ImPlotMarker_Circle);
           ImPlot::EndPlot();
         }
+
+        // ImGui::BulletText("Z Axis Velocity");
+        ImPlot::SetNextPlotLimitsX(0, history, ImGuiCond_Always);
+        ImPlot::SetNextPlotLimitsY(-4, 4, ImGuiCond_Always);
+        ImPlot::PushColormap(ImPlotColormap_Pastel);
+
+        if (ImPlot::BeginPlot("Z Axis Velocity", "time", "velocity",
+                              ImVec2(-1, 200))) {
+
+          // Y Axis Velocity
+          ImPlot::PlotLine("meters / sec", &z_vel.Data[0].x,
+          &z_vel.Data[0].y,
+                           z_vel.Data.size(), 0, 2 * sizeof(float));
+
+          ImPlot::SetNextMarkerStyle(ImPlotMarker_Circle);
+          ImPlot::EndPlot();
+        }
+
+        
     }
     ImGui::End();
   }
